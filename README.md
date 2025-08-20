@@ -200,3 +200,35 @@ Measure: Regular database backups, secure storage, and rollback plans.
 Why it’s crucial: Ensures business continuity in case of system crashes, attacks (like ransomware), or accidental data loss.
 
 
+## CI/CD PIPELINE
+
+What is a CI/CD Pipeline?
+A CI/CD pipeline (Continuous Integration / Continuous Deployment) is an automated process that helps developers:
+
+Continuous Integration (CI): Automatically build, test, and validate code whenever new changes are pushed (e.g., checking if a new feature breaks existing code).
+
+Continuous Deployment (CD): Automatically deliver tested changes to staging or production environments without manual intervention.
+
+Why It’s Important for This Project
+Faster Development: Ensures quick feedback when changes are made, reducing bugs.
+
+Higher Reliability: Automated testing and deployment reduce human error.
+
+Scalability: Makes it easier to maintain and upgrade the project as features grow.
+
+Consistency: Ensures all environments (dev, staging, production) are set up the same way.
+
+Tools You Could Use
+GitHub Actions → Automates tests and deployments directly from your GitHub repo.
+
+GitLab CI/CD → Similar to GitHub Actions, tightly integrated with GitLab repos.
+
+Jenkins → Open-source automation server, very customizable.
+
+CircleCI → Cloud CI/CD platform with strong Docker integration.
+
+Docker → Used for containerization so the app runs consistently across environments.
+
+Kubernetes (optional, advanced) → For managing containerized deployments at scale.
+
+
