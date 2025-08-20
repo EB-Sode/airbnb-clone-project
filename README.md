@@ -12,13 +12,13 @@ The backend for the Airbnb Clone project is designed to provide a robust and sca
  Data Optimization: Ensure efficient data retrieval and storage through database optimizations.
 
 
-## TEAM ROLES
+## Team Roles
 Backend Developer: Responsible for implementing API endpoints, database schemas, and business logic.
 Database Administrator: Manages database design, indexing, and optimizations.
 DevOps Engineer: Handles deployment, monitoring, and scaling of the backend services.
 QA Engineer: Ensures the backend functionalities are thoroughly tested and meet quality standards.
 
-## TECHNOLOGY STACK
+## Technology Stack
  Django: A high-level Python web framework used for building the RESTful API.
  Django REST Framework: Provides tools for creating and managing RESTful APIs.
  PostgreSQL: A powerful relational database used for data storage.
@@ -27,7 +27,7 @@ QA Engineer: Ensures the backend functionalities are thoroughly tested and meet 
  Redis: Used for caching and session management.
  Docker: Containerization tool for consistent development and deployment environments.
 
-## DATABASE DESIGN
+## Database Design
  	1. User
 Represents customers (guests) and property owners (hosts).
 Fields:
@@ -139,7 +139,7 @@ A payment belongs to a booking.
 Through the booking, it’s indirectly linked to user and property.
 
 
-## Feature breakdown
+## Feature Breakdown
 
 1. User Management
 Handles registration, authentication, and roles (guest, host, admin).
@@ -157,7 +157,7 @@ It handles reservation requests, availability checks, and booking status (pendin
 Allows guests to leave reviews and rate properties after stays.
 This builds trust and transparency by letting future guests make informed choices. It also helps hosts improve their services based on feedback.
 
-## Security 
+## API Security 
 
 1. Authentication (Secure Login & Identity Verification)
 Measure: Use secure password storage (hashed + salted), multi-factor authentication (MFA), and OAuth2/social logins (optional).
